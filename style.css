@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins','sans-serif';
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem .5rem;
+    box-shadow: 5px 5px 20px rgb(26, 25, 25) ;
+    background-color: black;
+}
+#navbarSupportedContent{
+    color: white;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid;
+    border-color: blue;
+}
+section{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+#con1{
+    background:url(assets/box2-3.jpg);
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+}
+#con1 h1{
+    font-size: 100px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px rgb(208, 200, 200);
+    
+}
+#email{
+    justify-content: center;
+}
+#email button:hover{
+    border: 2px solid rgb(154, 227, 154);
+}
+#con2{
+background-color: rgb(243, 221, 221);
+}
+
+#con3{
+    background-color: rgb(226, 219, 219);
+}
+.card{
+    margin: 20px;
+}
+.card:hover{
+    box-shadow: 10px 10px 10px 10px rgb(13, 12, 12);
+    transition: 1s;
+}
+#con4 img{
+    height: 100%;
+}
+#last input{
+    margin: 10px 0px;
+}
+#last textarea{
+    margin: 10px 0px;
+}
